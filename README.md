@@ -2,7 +2,7 @@
 </br>
 <h3>Description: </h3></br>
 I was searching for a ftp client that supported tor but couldn't find any, so i coded my own.</br>
-A ftp client that supports tor connection written in python3.</br>
+A ftp client that supports tor connection written in python3.You can connect through tor to a regular ftp server or to a hidden service.</br>
 
 <h3>Usage:</h3>
 Non tor:
