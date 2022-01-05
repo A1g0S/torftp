@@ -47,16 +47,6 @@ tor = args.tor
 username = args.username
 password = args.password
 
-def read_from_data_connection(s):
-        total_data = ''
-        while True:
-            data = s.recv(BUFFER)
-            total_data = total_data.append(data)
-            if not data:
-                break
-        s.close()
-       
-        return total_data
 
 def writefile(file,data):
     f=open(file,"wb")
