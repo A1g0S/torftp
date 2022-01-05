@@ -11,6 +11,6 @@ Tor:
 ftptor.py --host *.onion --tor --username ftp --password ftp</br>
 </br>
 Currently supports only passive ftp mode.</br></br>
-So in order for this to work talking in terms of server side, further configurations need to be done,</br>
+So in order for this to work for tor talking in terms of server side, further configurations need to be done,</br>
 like setting a fixed data connection and opening 2 ports on the torrc file for the server.</br>
 If anyone can figure out a better way like dynamically locating a new port for every data connection please let me know.
