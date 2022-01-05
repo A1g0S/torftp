@@ -6,9 +6,9 @@ A ftp client that supports tor connection written in python3.</br>
 
 <h3>Usage:</h3>
 Non tor:
-ftptor --host ftpserver.com --username ftp --password ftp</br>
+ftptor.py --host ftpserver.com --username ftp --password ftp</br>
 Tor:
-ftptor --host *.onion --tor --username ftp --password ftp</br>
+ftptor.py --host *.onion --tor --username ftp --password ftp</br>
 </br>
 Currently supports only passive ftp mode.</br></br>
 So in order for this to work talking in terms of server side, further configurations need to be done,</br>
