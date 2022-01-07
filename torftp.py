@@ -194,7 +194,7 @@ if __name__ == "__main__":
        sys.exit()
     
     print(logged)
-   # try:
+    try:
     while True:
       print(recvall(s))
       cwd=pwd(s)
@@ -241,6 +241,6 @@ if __name__ == "__main__":
       else:
         sendall(s,cmd)
         print(recvall(s))
-   # except:
-    #  s.close()
-     # sys.exit()
+    except:
+      s.close()
+      sys.exit()
